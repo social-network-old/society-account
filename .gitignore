@@ -1,0 +1,22 @@
+*.mo
+*.pyc
+*.pyo
+.DS_Store
+.Icon
+/.idea
+app/version
+server/dist/*
+keys
+node_modules
+temp
+npm-debug.log
+package-lock.json
+yarn-error.log
+wire-account.zip
+/coverage
+
+# Configuration imported from https://github.com/wireapp/wire-web-config-default/
+.env
+.env.defaults
+/config
+resource

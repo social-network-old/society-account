@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "declaration": false,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["dom", "es2017"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "server/dist/static",
+    "rootDirs": ["src"],
+    "sourceMap": true,
+    "target": "es6",
+    "paths": {
+      "resource/*": ["resource/*"]
+    }
+  },
+  "exclude": ["node_modules", "server"]
+}
